@@ -1,0 +1,19 @@
+<div>
+  <div class="mainHeader">
+    <h2>Return History</h2>
+  </div>
+
+
+  <div class="mainDiv">
+
+    <div>
+      <div *ngFor="let ret of currentReturns">
+       <app-return-history-box-view [currentPersonbookreturn]="ret"></app-return-history-box-view>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
